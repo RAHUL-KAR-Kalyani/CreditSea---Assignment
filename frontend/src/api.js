@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000/api';
+const API_BASE = 'https://creditsea-backend-yob2.onrender.com/api';
 
 async function upload(file) {
     const fd = new FormData();
